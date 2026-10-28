@@ -1,0 +1,31 @@
+# Dependencies
+/node_modules/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Generated Prisma client
+/src/generated/prisma/
+
+# User-uploaded documents
+/uploads/
+
+# Temporary test artifacts
+/docuchat-test.exe
+/docuchat-test.txt
+/docuchat-extraction-test.txt
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Local AI coding-agent files
+/.agents/
+/.claude/
+/.windsurf/
+/skills-lock.json
+
+# Accidental captured terminal output
+/ma -v
